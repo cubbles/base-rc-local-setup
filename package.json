@@ -1,0 +1,15 @@
+{
+  "name": "base-rc.local-setup",
+  "version": "0.0.0",
+  "description": "Configuration for a local setup of the Cubbles Base.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cubbles/base-rc.local-setup.git"
+  },
+  "keywords": [
+    "cubbles",
+    "docker"
+  ],
+  "author": "Hans-Dieter Böhlau",
+  "license": "Apache-2.0"
+}
