@@ -1,6 +1,6 @@
 {
   "name": "base-rc.local-setup",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Configuration for a local setup of the Cubbles Base.",
   "repository": {
     "type": "git",
