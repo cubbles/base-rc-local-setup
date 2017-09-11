@@ -7,6 +7,12 @@ services:
     ports:
       - 80:80
       - 443:443
+    environment:
+      - SSL_CERT=/opt/gateway/conf.d/cert/cubbles-base-local.crt
+      - SSL_CERT_KEY=/opt/gateway/conf.d/cert/cubbles-base-local.key
+    volumes:
+      - /mnt/sda1/tmp/base-config-local/cubbles-base-local.crt:/opt/gateway/conf.d/cert/cubbles-base-local.crt
+      - /mnt/sda1/tmp/base-config-local/cubbles-base-local.key:/opt/gateway/conf.d/cert/cubbles-base-local.key
   #_____________________________________________________
   #
   base.authentication:
